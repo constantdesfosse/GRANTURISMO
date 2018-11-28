@@ -1,1 +1,18 @@
-// Specific CSS for your home-page
+html,body { height: 100%; }
+
+.wrapper-home {
+  padding-top: 0px !important;
+  position: relative;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-family: 'Source Sans Pro', sans-serif !important;
+}
+
+#logohome {
+    width: 400px;
+}
+

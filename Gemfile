@@ -11,6 +11,7 @@ gem "font-awesome-sass"
 gem "simple_form"
 gem "autoprefixer-rails"
 gem 'jquery-rails'
+gem 'mail_form', '~> 1.5', '>= 1.5.1'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'

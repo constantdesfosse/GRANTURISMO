@@ -1,0 +1,71 @@
+$gold: #9c8e65;
+$darkgrey : #505050;
+
+abbr[title="required"] {
+  display: none;
+}
+
+.contact {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  letter-spacing: 0.3em;
+  font-family: 'Source Sans Pro', sans-serif !important;
+  font-weight: normal !important;
+  & h1 {
+  font-family: 'Source Sans Pro', sans-serif !important;
+    letter-spacing: 0.3em;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff !important;
+  }
+}
+
+
+.btn-send {
+  border-style: 1px solid;
+  border-color: #EAEAEA;
+  font-family: 'Source Sans Pro', sans-serif !important;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  transition: 0.5s;
+}
+
+.btn-default:hover {
+    color: white;
+    background-color: #000;
+    border-color: #000;
+    transition: 0.5s;
+}
+
+.form-control {
+  border-color: #EAEAEA;
+  box-shadow: none;
+  -webkit-appearance: none;
+  font-family: 'Source Sans Pro', sans-serif !important;
+  color: #000;
+
+}
+
+label {
+    padding-bottom: 3%;
+
+}
+
+.control-label {
+  color: #000;
+  text-transform: uppercase;
+  font-size: 0.9em;
+}
+
+.form-control:focus {
+    border-color: #000;
+    outline: 0;
+    box-shadow: none;
+}
+
+.col-centered {
+  float: none;
+  margin-right: auto;
+  margin-left: auto;
+}
